@@ -1,0 +1,116 @@
+body{
+    color:white;
+    font-family: 'Didact Gothic', sans-serif !important;
+    overflow-x: hidden;
+}
+img{
+    margin:15px;
+
+}
+.head{
+    background-color:#1554c9 !important;
+    padding:5px;
+}
+
+li:hover{
+    background-color:#2150013b;
+    border-bottom:2px solid #215001;
+    color:white;
+    padding:5px;
+    margin-right:6px;
+}
+li{
+    position:relative;
+    margin-top:2%;
+}
+a:link{
+    text-decoration: inherit;
+    color:inherit;
+}
+.desc{
+    background-color:rgba(22, 73, 11, 0.863);
+    padding:5px;
+    margin:auto;
+    margin-top:10%;
+    margin-bottom:10%;
+    text-align:center;
+
+}
+pre{
+    color:white !important;
+}
+.parallax {
+    /* Set a specific height */
+    min-height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a, a:visited{
+  color:inherit;
+}
+h3{
+  text-align:center;
+}
+img{
+    border-radius:10px;
+}
+.shopDesc{
+    font-size:4em;
+}
+main, footer{
+    background-color:#215001;
+}
+.itemDesc{
+    text-align:right;
+    position: relative;
+}
+hr{
+    border:white 1px dashed;
+}
+.aboutText{
+    text-align:center;
+}
+.aboutHeader{
+    position:relative;
+    margin-top:10%
+}
+.col-sm{
+    padding:20px;
+}
+.col-lg{
+    padding:20px;
+}
+.col-md{
+    padding:20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Play', sans-serif !important;
+}
+.shopItems{
+    height:300px !important;
+    box-shadow:3px 3px 5px black !important;
+}
+.itemPrice{
+    float:left;
+}
+caption{
+    margin:auto;
+}
+.footerContent{
+    text-align:center;
+}
+footer{
+    position:fixed;
+    bottom: 0px;
+    width: 150px;
+}
+.aboutPics{
+    margin-left:30%;
+}
+.disclaimer{
+    font-size:7px;
+}
